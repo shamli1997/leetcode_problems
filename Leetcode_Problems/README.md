@@ -1,3 +1,3 @@
 ### Leetcode Solved Problems Using Python
 
-## This repository consist of all the daily challenge problems from Leetcode.
+## This repository contains of all the daily challenge problems from Leetcode.
