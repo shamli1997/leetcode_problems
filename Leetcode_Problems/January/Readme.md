@@ -1,12 +1,12 @@
 # January Problems
 
-## 4.1009 Complement of base 10 integer (https://leetcode.com/problems/complement-of-base-10-integer/)
+### 4.1009 Complement of base 10 integer (https://leetcode.com/problems/complement-of-base-10-integer/)
 ##### Create a mask and substract the given number.
 
-## 5.131 Palindrome Partitioning (https://leetcode.com/problems/palindrome-partitioning/)
+### 5.131 Palindrome Partitioning (https://leetcode.com/problems/palindrome-partitioning/)
 ##### Use dfs to find all the substrings of the given string.
 
-## 6.1094 Car Pooling (https://leetcode.com/problems/car-pooling/)
+### 6.1094 Car Pooling (https://leetcode.com/problems/car-pooling/)
 ##### 1.Create capacity array of 1001 filled with 0.
 ##### 2.Increment the capacityArray by trip when passenger onboards.
 ##### 3.Decrement the capacityArray by trip when passenger departs.
