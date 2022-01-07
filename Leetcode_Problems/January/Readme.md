@@ -15,7 +15,7 @@
 ##### 5.Return false if capacity < passenger present in the capacity_array.
 
 ### 7.382. Linked List Random Node (https://leetcode.com/problems/linked-list-random-node/)
-<details>
+<details><summary> Approach </summary>
 
 #### Time Complexity: O(n) AND Space Complexity: o(1).
 ##### 1.Chosen value = 0 and scope = 1
