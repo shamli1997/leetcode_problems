@@ -14,7 +14,8 @@
 ##### 4.Loop over capacityArray and decrement the passenger from given capacity.
 ##### 5.Return false if capacity < passenger present in the capacity_array.
 
-<details><summary>7.382. Linked List Random Node (https://leetcode.com/problems/linked-list-random-node/)</summary>
+### 7.382. Linked List Random Node (https://leetcode.com/problems/linked-list-random-node/)
+<details>
 
 #### Time Complexity: O(n) AND Space Complexity: o(1).
 ##### 1.Chosen value = 0 and scope = 1
