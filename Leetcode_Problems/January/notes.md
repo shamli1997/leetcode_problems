@@ -1,20 +1,21 @@
 # January Problems
 
-### [4.1009 Complement of base 10 integer](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/4.1009_complement_of_base_10_int.py) (https://leetcode.com/problems/complement-of-base-10-integer/)
+### [4.1009 Complement of base 10 integer](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/4.1009_complement_of_base_10_int.py) 
 <details><summary> Approach </summary>
-
+Leetcode Link: https://leetcode.com/problems/complement-of-base-10-integer/
  1. Create a mask and substract the given number.
 </details>
 
-### 5.131 Palindrome Partitioning (https://leetcode.com/problems/palindrome-partitioning/)
+### [5.131 Palindrome Partitioning](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/5.131_palindrome_partitioning.py)
 <details><summary> Approach </summary>
+Leetcode Link: https://leetcode.com/problems/palindrome-partitioning/
 
  1. Use dfs to find all the substrings of the given string.
 </details>
 
-### 6.1094 Car Pooling (https://leetcode.com/problems/car-pooling/)
+### [6.1094 Car Pooling](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/6.1094_car_pooling.py)
 <details><summary> Approach </summary>
-
+Leetcode Link: https://leetcode.com/problems/car-pooling/
 #### Time Complexity: O(n)
 #### Space Complexity: o(max(n,1001)).
  1. Create capacity array of 1001 filled with 0.
@@ -24,9 +25,9 @@
  5. Return false if capacity < passenger present in the capacity_array.
 </details>
 
-### 7.382. Linked List Random Node (https://leetcode.com/problems/linked-list-random-node/)
+### [7.382. Linked List Random Node](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/7.382_linked_list_random_node.py)
 <details><summary> Approach </summary>
-
+Leetcode Link: https://leetcode.com/problems/linked-list-random-node/
 #### Time Complexity: O(n)
 #### Space Complexity: O(1).
  1. Chosen value = 0 and scope = 1
@@ -36,9 +37,9 @@
 
 </details>
 
-### 8.1463. Cherry Pickup II(https://leetcode.com/problems/cherry-pickup-ii/)
+### [8.1463. Cherry Pickup II](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/8.1463_cherry_pick_up_2.py)
 <details><summary> Approach </summary>
-
+Leetcode Link: https://leetcode.com/problems/cherry-pickup-ii/
 #### Time Complexity: O(MN^2)
 #### Space Complexity: O(MN^2).
  1. Define a dp function that takes three integers row, col1, and col2 as input.
