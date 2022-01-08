@@ -1,6 +1,6 @@
 # January Problems
 
-### 4.1009 Complement of base 10 integer (https://leetcode.com/problems/complement-of-base-10-integer/)
+### [4.1009 Complement of base 10 integer](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/4.1009_complement_of_base_10_int.py) (https://leetcode.com/problems/complement-of-base-10-integer/)
 <details><summary> Approach </summary>
 
  1. Create a mask and substract the given number.
