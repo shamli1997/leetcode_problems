@@ -56,3 +56,18 @@
     4. Return the total cherries we can pick.
  5. Finally, return dp(row=0, col1=0, col2=last_column) in the main function
 </details>
+
+### [9.1049_robot_bounded_in_circle](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/9.1049_robot_bounded_in_circle.py)
+###### Leetcode Link: https://leetcode.com/problems/robot-bounded-in-circle/submissions/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N)
+#### Space Complexity: O(1).
+ 1. Set direction:di(0,1) as it is moving straight towards north.
+ 2. Keep starting position at (0,0).
+ 3. Iterate through instruction string
+ 4. if "G": Go straight that means add x+di[0],y+di[1]
+ 5. if "L": Change direction: di(-di[1],di[0])
+ 6. if "R": Change direction: di(di[1],-di[0])
+ 7. Check if x,y==0,0 or di!=(0,1) #no circle found if di is (0,1)
+</details>
