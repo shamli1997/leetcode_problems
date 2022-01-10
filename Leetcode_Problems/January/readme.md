@@ -71,3 +71,14 @@
  6. if "R": Change direction: di(di[1],-di[0])
  7. Check if x,y==0,0 or di!=(0,1) #no circle found if di is (0,1)
 </details>
+
+### [10.67_add_binary](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/10.67_add_binary.py)
+###### Leetcode Link: https://leetcode.com/problems/add-binary/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N)
+#### Space Complexity: O(1).
+ 1. The resulting bit is equal to (aBit + bBit + carry) % 2. That works because the bit becomes 1 only if the sum (aBit + bBit + carry) is greater than 2. Example: 1+1+1 = 3 => 3%2 = 1
+ 2. Carry can be calculated as (aBit + bBit + carry) // 2 (the result of division floor rounded). Example: 1+1+1 = 3 => carry = 3//2 = 1
+ 3. Use negative index i here to iterate from the end (list[-1] gives the last element of the list). That allows us to have just one single index for both strings.
+</details>
