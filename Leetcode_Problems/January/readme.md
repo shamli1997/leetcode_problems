@@ -82,3 +82,14 @@
  2. Carry can be calculated as (aBit + bBit + carry) // 2 (the result of division floor rounded). Example: 1+1+1 = 3 => carry = 3//2 = 1
  3. Use negative index i here to iterate from the end (list[-1] gives the last element of the list). That allows us to have just one single index for both strings.
 </details>
+
+### [11.1022_sum_of_root_to_leaf_binary_num](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/11.1022_sum_of_root_to_leaf_binary_num.py)
+###### Leetcode Link: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N)
+#### Space Complexity: O(H) H:Height of the tree.
+ 1. sum = sum * 2 + root.val
+ 2. if root.left or root.right call the recursive function and return the left + right sum
+ 3. else return sum
+</details>
