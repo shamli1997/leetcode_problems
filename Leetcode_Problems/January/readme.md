@@ -93,3 +93,16 @@
  2. if root.left or root.right call the recursive function and return the left + right sum
  3. else return sum
 </details>
+
+### [12.701_insert_into_bst](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/12.701_insert_into_bst.py)
+###### Leetcode Link: https://leetcode.com/problems/insert-into-a-binary-search-tree/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(log base 2 N)
+ 1. If root is empty then make node with given value and return Node
+ 2. if val < curr.val: 
+   1. check if left node exist. True: curr = curr.left False: curr.left = TreeNode(val)
+3. if val > curr.val: 
+   1. check if right node exist. True: curr = curr.right False: curr.right = TreeNode(val)
+4. return root
+</details>
