@@ -106,3 +106,12 @@
    1. check if right node exist. True: curr = curr.right False: curr.right = TreeNode(val)
 4. return root
 </details>
+
+### [13.452_min_num_of_arrows_to_burst_balloons](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/13.452_min_num_of_arrows_to_burst_balloons.py)
+###### Leetcode Link: https://leetcode.com/problems/insert-into-a-binary-search-tree/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N log N)
+ 1. Sort the List according to 2nd element
+ 2. check for overlapping interval and increment the arrows and update ending point of the interval.
+</details>
