@@ -108,7 +108,7 @@
 </details>
 
 ### [13.452_min_num_of_arrows_to_burst_balloons](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/13.452_min_num_of_arrows_to_burst_balloons.py)
-###### Leetcode Link: https://leetcode.com/problems/insert-into-a-binary-search-tree/
+###### Leetcode Link: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 <details><summary> Approach </summary>
 
 #### Time Complexity: O(N log N)
