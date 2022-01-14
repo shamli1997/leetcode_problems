@@ -121,5 +121,7 @@
 <details><summary> Approach </summary>
 
 #### Time Complexity: O(s)
-![DFA: Deterministic finite automaton] ()
+
+![DFA: Deterministic finite automaton](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/atoi.PNG?raw=true)
+
 </details>
