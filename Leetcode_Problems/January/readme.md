@@ -115,3 +115,11 @@
  1. Sort the List according to 2nd element
  2. check for overlapping interval and increment the arrows and update ending point of the interval.
 </details>
+
+### [14.8_string_to_int_atoi](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/14.8_string_to_int_atoi.py)
+###### Leetcode Link: https://leetcode.com/problems/string-to-integer-atoi/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(s)
+![DFA: Deterministic finite automaton] ()
+</details>
