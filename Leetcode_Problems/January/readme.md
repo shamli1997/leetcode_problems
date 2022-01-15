@@ -125,3 +125,16 @@
 ![DFA: Deterministic finite automaton](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/atoi.PNG?raw=true)
 
 </details>
+
+### [15.1345_jump_game_4](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/15.1345_jump_game_4.py)
+###### Leetcode Link: https://leetcode.com/problems/jump-game-iv/
+<details><summary> Approach </summary>
+
+#### Time complexity: O(N) since we will visit every node at most once.
+
+#### Space complexity: O(N) since it needs curs and nex to store nodes.
+
+1. we can store nodes with the same value together in a graph dictionary. With this method, when searching, we do not need to iterate the whole list to find the nodes with the same value as the next steps, but only need to ask the precomputed dictionary. However, to prevent stepping back, we need to clear the dictionary after we get to that value.
+
+
+</details>
