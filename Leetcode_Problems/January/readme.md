@@ -138,3 +138,18 @@
 
 
 </details>
+
+### [16.849_max_distance_to_closest_person](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/16.849_max_distance_to_closest_person.py)
+###### Leetcode Link: https://leetcode.com/problems/maximize-distance-to-closest-person/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N), where N is the length of seats.
+
+#### Space Complexity: O(1).
+
+1. Keep track of prev, the filled seat at or to the left of i, and future, the filled seat at or to the right of i.
+
+2. Then at seat i, the closest person is min(i - prev, future - i), with one exception. i - prev should be considered infinite if there is no person to the left of seat i, and similarly future - i is infinite if there is no one to the right of seat i.
+
+
+</details>
