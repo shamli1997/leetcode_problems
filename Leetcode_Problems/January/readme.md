@@ -153,3 +153,17 @@
 
 
 </details>
+
+### [17.290_word_pattern](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/17.290_word_pattern.py)
+###### Leetcode Link: https://leetcode.com/problems/word-pattern/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N)
+
+#### Space Complexity: O(N)
+
+1. map the letters in the pattern with words.
+2. to handle the edge case for pattern -> 'a,a' s -> 'dog,cat' compare the len(set(p)) with len(set(s))
+
+
+</details>
