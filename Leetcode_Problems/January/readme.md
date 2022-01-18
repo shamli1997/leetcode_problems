@@ -167,3 +167,17 @@
 
 
 </details>
+
+### [18.605_can_place_flower](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/18.605_can_place_flower.py)
+###### Leetcode Link: https://leetcode.com/problems/can-place-flowers/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N)
+
+#### Space Complexity: O(1)
+
+1. Since the code needs to check the previous and next positions of an empty position, we have to consider the edge cases for flowerbed[0] and flowerbed[-1]. The inclusion of this flowerbed = [0] + flowerbed + [0] allows us to check these two positions.
+2. Also, we have to reset the empty position to 1 (occupied) and so avoid double-counting.
+
+
+</details>
