@@ -181,3 +181,21 @@
 
 
 </details>
+
+### [19.142_linked_list_cycle_2](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/19.142_linked_list_cycle_2)
+###### Leetcode Link: https://leetcode.com/problems/linked-list-cycle-ii/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(N)
+
+#### Space Complexity: O(1)
+
+1. take two pointers slow, fast pointing to head
+2. move slow pointer by 1 and fast pointer by 2 until fast == slow
+3. if fast != slow then there is no cycle return None
+4. take another pointer pointing to head.
+5. iterate until pointer != fast
+6. return pointer
+
+
+</details>
