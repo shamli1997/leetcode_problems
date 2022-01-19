@@ -182,7 +182,7 @@
 
 </details>
 
-### [19.142_linked_list_cycle_2](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/19.142_linked_list_cycle_2)
+### [19.142_linked_list_cycle_2](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/19.142_linked_list_cycle_2.py)
 ###### Leetcode Link: https://leetcode.com/problems/linked-list-cycle-ii/
 <details><summary> Approach </summary>
 
