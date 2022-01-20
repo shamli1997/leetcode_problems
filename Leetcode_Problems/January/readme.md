@@ -20,6 +20,7 @@
 
 #### Time Complexity: O(n)
 #### Space Complexity: o(max(n,1001)).
+#### Algorithm
  1. Create capacity array of 1001 filled with 0.
  2. Increment the capacityArray by trip when passenger onboards.
  3. Decrement the capacityArray by trip when passenger departs.
@@ -33,6 +34,7 @@
 
 #### Time Complexity: O(n)
 #### Space Complexity: O(1).
+#### Algorithm
  1. Chosen value = 0 and scope = 1
  2. Loop through the Linked list
  3. if random_value < 1/scope then chosen_value = current_value of LL.
@@ -46,6 +48,7 @@
 
 #### Time Complexity: O(MN^2)
 #### Space Complexity: O(MN^2).
+#### Algorithm
  1. Define a dp function that takes three integers row, col1, and col2 as input.
  2. (row, col1) represents the location of robot1, and (row, col2) represents the location of robot2.
  3. The dp function returns the maximum cherries we can pick if robot1 starts at (row, col1) and robot2 starts at (row, col2).
@@ -63,6 +66,7 @@
 
 #### Time Complexity: O(N)
 #### Space Complexity: O(1).
+#### Algorithm
  1. Set direction:di(0,1) as it is moving straight towards north.
  2. Keep starting position at (0,0).
  3. Iterate through instruction string
@@ -78,6 +82,7 @@
 
 #### Time Complexity: O(N)
 #### Space Complexity: O(1).
+#### Algorithm
  1. The resulting bit is equal to (aBit + bBit + carry) % 2. That works because the bit becomes 1 only if the sum (aBit + bBit + carry) is greater than 2. Example: 1+1+1 = 3 => 3%2 = 1
  2. Carry can be calculated as (aBit + bBit + carry) // 2 (the result of division floor rounded). Example: 1+1+1 = 3 => carry = 3//2 = 1
  3. Use negative index i here to iterate from the end (list[-1] gives the last element of the list). That allows us to have just one single index for both strings.
@@ -89,6 +94,7 @@
 
 #### Time Complexity: O(N)
 #### Space Complexity: O(H) H:Height of the tree.
+#### Algorithm
  1. sum = sum * 2 + root.val
  2. if root.left or root.right call the recursive function and return the left + right sum
  3. else return sum
@@ -99,6 +105,7 @@
 <details><summary> Approach </summary>
 
 #### Time Complexity: O(log base 2 N)
+#### Algorithm
  1. If root is empty then make node with given value and return Node
  2. if val < curr.val: 
    1. check if left node exist. True: curr = curr.left False: curr.left = TreeNode(val)
@@ -112,6 +119,7 @@
 <details><summary> Approach </summary>
 
 #### Time Complexity: O(N log N)
+#### Algorithm
  1. Sort the List according to 2nd element
  2. check for overlapping interval and increment the arrows and update ending point of the interval.
 </details>
@@ -133,7 +141,7 @@
 #### Time complexity: O(N) since we will visit every node at most once.
 
 #### Space complexity: O(N) since it needs curs and nex to store nodes.
-
+#### Algorithm
 1. we can store nodes with the same value together in a graph dictionary. With this method, when searching, we do not need to iterate the whole list to find the nodes with the same value as the next steps, but only need to ask the precomputed dictionary. However, to prevent stepping back, we need to clear the dictionary after we get to that value.
 
 
@@ -146,7 +154,7 @@
 #### Time Complexity: O(N), where N is the length of seats.
 
 #### Space Complexity: O(1).
-
+#### Algorithm
 1. Keep track of prev, the filled seat at or to the left of i, and future, the filled seat at or to the right of i.
 
 2. Then at seat i, the closest person is min(i - prev, future - i), with one exception. i - prev should be considered infinite if there is no person to the left of seat i, and similarly future - i is infinite if there is no one to the right of seat i.
@@ -161,7 +169,7 @@
 #### Time Complexity: O(N)
 
 #### Space Complexity: O(N)
-
+#### Algorithm
 1. map the letters in the pattern with words.
 2. to handle the edge case for pattern -> 'a,a' s -> 'dog,cat' compare the len(set(p)) with len(set(s))
 
@@ -175,7 +183,7 @@
 #### Time Complexity: O(N)
 
 #### Space Complexity: O(1)
-
+#### Algorithm
 1. Since the code needs to check the previous and next positions of an empty position, we have to consider the edge cases for flowerbed[0] and flowerbed[-1]. The inclusion of this flowerbed = [0] + flowerbed + [0] allows us to check these two positions.
 2. Also, we have to reset the empty position to 1 (occupied) and so avoid double-counting.
 
@@ -189,7 +197,7 @@
 #### Time Complexity: O(N)
 
 #### Space Complexity: O(1)
-
+#### Algorithm
 1. take two pointers slow, fast pointing to head
 2. move slow pointer by 1 and fast pointer by 2 until fast == slow
 3. if fast != slow then there is no cycle return None
@@ -213,7 +221,7 @@
 #### Space Complexity: O(1)
 1. For each eating speed middlemiddle, we iterate over the array and calculate the total hours Koko spends, which costs constant space.
 2. Therefore, the overall space complexity is O(1).
-
+#### Algorithm
 1. Initialize the two boundaries of the binary search as left = 1left=1, right = max(piles)right=max(piles).
 2. Get the middle value from left and right, that is, middle = (left + right) / 2middle=(left+right)/2, this is Koko's eating speed during this iteration.
 3. Iterate over the piles and check if Koko can eat all the piles within hh hours given this eating speed of middlemiddle.
