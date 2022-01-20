@@ -199,3 +199,26 @@
 
 
 </details>
+
+### [20.875_koko_eating_bananas](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/20.875_koko_eating_bananas.py)
+###### Leetcode Link: https://leetcode.com/problems/koko-eating-bananas/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n⋅logm)
+
+1. The initial search space is from 11 to mm, it takes \log mlogm comparisons to reduce the search space to 1.
+2. For each eating speed middlemiddle, we traverse the array and calculate the overall time Koko spends, which takes O(n) for each traversal.
+3. To sum up, the time complexity is O(n log m).
+
+#### Space Complexity: O(1)
+1. For each eating speed middlemiddle, we iterate over the array and calculate the total hours Koko spends, which costs constant space.
+2. Therefore, the overall space complexity is O(1).
+
+1. Initialize the two boundaries of the binary search as left = 1left=1, right = max(piles)right=max(piles).
+2. Get the middle value from left and right, that is, middle = (left + right) / 2middle=(left+right)/2, this is Koko's eating speed during this iteration.
+3. Iterate over the piles and check if Koko can eat all the piles within hh hours given this eating speed of middlemiddle.
+4. If Koko can finish all the piles within h hours, set right equal to middle signifying that all speeds greater than middle are workable but less desirable by Koko. Otherwise, set left equal to middle +1 signifying that all speeds less than or equal to middle are not workable.
+5. Repeat the steps 2, 3, and 4 until the two boundaries overlap, i.e., left == right, which means that we have found the minimum speed by which Koko could finish eating all the piles within h hours. We can return either left or right as the answer.
+
+
+</details>
