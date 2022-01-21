@@ -230,3 +230,22 @@
 
 
 </details>
+
+### [21.134_gas_station](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/21.134_gas_station.py)
+###### Leetcode Link: https://leetcode.com/problems/gas-station/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n)
+#### Space Complexity: O(1)
+#### Algorithm
+1. Initialize the tank, start, shortage  to 0
+2. Iterate over gas with index, fill in the tank tank += gas[index]
+3. go on to the next gas station with current gas in tank if tank >= cost[index]: tank -= cost[index]
+4. else we dont have enough gas to move to next station
+5. add that to shortage shortage += cost[index] - tank
+6. move to next station start = index + 1, tank = 0
+7. if start == len(gas) or tank < shortage : return -1> start == len(gas) then single trip is not finished if tank < shortage we won't be able to move forward
+8. finally return start value
+
+
+</details>
