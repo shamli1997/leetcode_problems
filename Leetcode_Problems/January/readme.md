@@ -249,3 +249,20 @@
 
 
 </details>
+
+### [22.1510_stone_game_4](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/22.1510.stone_game_4.py)
+###### Leetcode Link: https://leetcode.com/problems/stone-game-iv/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n sqrt n)
+#### Space Complexity: O(n)
+#### Algorithm
+1. use lru_cache
+2. iterate over for loop starting from 1 to the sqrt  of given num + 1(to include the number itself)
+3. We need to look for all the possibilities for ex. for n=10 we need to look for 1,4,9
+4. recursively call the function giving the number as current number - x value(perfect square) (n - (x*x))
+5. if n==0; return False
+6. if not recr_fun(n-(x*x)):return True
+
+
+</details>
