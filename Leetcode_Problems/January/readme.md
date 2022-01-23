@@ -266,3 +266,20 @@
 
 
 </details>
+
+### [23.1291_sequential_digits](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/23.1291_sequential_digits.py)
+###### Leetcode Link: https://leetcode.com/problems/sequential-digits/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(1) because low & high are in range of 10^2 <= l,h <= 10^9 and it is constant
+#### Space Complexity: O(1)
+#### Algorithm
+1. count the number of digits in lower and higher bounds
+2. iterate over the for loop in range(lower_bound_digits, higher_bound_digits + 1)
+3. iterate over the for loop in range(0,10 - lowee-bound_digit)
+4. get the substring from (j to j+i)
+5. if num >= low and num <= high: result.append(num)
+6. return result
+
+
+</details>
