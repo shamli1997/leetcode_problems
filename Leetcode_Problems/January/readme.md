@@ -276,7 +276,7 @@
 #### Algorithm
 1. count the number of digits in lower and higher bounds
 2. iterate over the for loop in range(lower_bound_digits, higher_bound_digits + 1)
-3. iterate over the for loop in range(0,10 - lowee-bound_digit)
+3. iterate over the for loop in range(0,10 - lower-bound_digit)
 4. get the substring from (j to j+i)
 5. if num >= low and num <= high: result.append(num)
 6. return result
