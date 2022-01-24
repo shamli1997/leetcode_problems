@@ -283,3 +283,19 @@
 
 
 </details>
+
+### [24.520_detect_capital](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/24.520_detect_capital.py)
+###### Leetcode Link: https://leetcode.com/problems/detect-capital/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n)
+#### Space Complexity: O(1)
+#### Algorithm
+1. if len(word) == 1: return True
+2. check if all letters are capital, if not return False
+3. if any of the letter from 2 to n is not capital then return False
+4. check if letters from 1 to n are capital, if yes return False
+5. else return True
+
+
+</details>
