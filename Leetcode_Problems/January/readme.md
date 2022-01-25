@@ -299,3 +299,18 @@
 
 
 </details>
+
+### [25.941_valid_mountain_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/25.941_valid_mountain_array.py)
+###### Leetcode Link: https://leetcode.com/problems/valid-mountain-array/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n)
+#### Space Complexity: O(1)
+#### Algorithm
+1. increment i till a[i] < a[i+1] walk up
+2. if i is first element or the last element then return False
+3. increment i till a[i] > a[i + 1] walk down
+4. return i == N-1
+
+
+</details>
