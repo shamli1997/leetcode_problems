@@ -333,6 +333,21 @@
 
 </details>
 
+### [27.421_max_num_of_xor_in_arr](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/27.421_max_num_of_xor_in_arr.py)
+###### Leetcode Link: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n)
+#### Space Complexity: O(1)
+#### Algorithm
+1. Build a trie first
+2. For each number num in nums, try to find number which can generate maximum value with num using XOR
+   1. From left to right, take the reverse bit if possble, otherwise take the same bit, e.g.
+   2. say if the k th bit from left for num is 1, then to make it maximum, we want to take a number whose k th bit is 0 (if possible); if not possible, we take same bit.
+
+
+</details>
+
 ### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/31.1672_richest_customer_wealth.py)
 ###### Leetcode Link: https://leetcode.com/problems/richest-customer-wealth/
 <details><summary> Approach </summary>
