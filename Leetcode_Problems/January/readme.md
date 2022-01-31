@@ -315,6 +315,24 @@
 
 </details>
 
+### [26.1305_all_ele_in_bin_searrch_tree](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/26.1305_all_ele_in_bin_searrch_tree.py)
+###### Leetcode Link: https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(m+n)
+#### Space Complexity: O(h1+h2)
+#### Algorithm
+1. Create 2 stacks and a result list
+2. put all ele in stack until we reach leaf node(1.left then right)
+3. fill stack1 and stack2 with left values of root1 and root 2
+4. either stack 2 is empty we will pop all values from stack1
+5. if stack2 is not empty then we will get their peek values and compare and add less val in result list
+6. either stack 1 is empty we will pop all values from stack2
+7. if stack1 is not empty then we will get their peek values and compare and add less val in result list
+
+
+</details>
+
 ### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/31.1672_richest_customer_wealth.py)
 ###### Leetcode Link: https://leetcode.com/problems/richest-customer-wealth/
 <details><summary> Approach </summary>
