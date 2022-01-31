@@ -348,6 +348,19 @@
 
 </details>
 
+### [28.211_design_add_and_search_ds](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/28.211_design_add_and_search_ds.py)
+###### Leetcode Link: https://leetcode.com/problems/design-add-and-search-words-data-structure/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n)
+#### Space Complexity: O(1)
+#### Algorithm
+1. Add word in the trie
+2. Use dfs for searching
+
+
+</details>
+
 ### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/31.1672_richest_customer_wealth.py)
 ###### Leetcode Link: https://leetcode.com/problems/richest-customer-wealth/
 <details><summary> Approach </summary>
