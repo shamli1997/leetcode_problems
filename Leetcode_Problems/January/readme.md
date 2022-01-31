@@ -314,3 +314,17 @@
 
 
 </details>
+
+### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/31.1672_richest_customer_wealth.py)
+###### Leetcode Link: https://leetcode.com/problems/richest-customer-wealth/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(m * n)
+#### Space Complexity: O(1)
+#### Algorithm
+1. Iterate over the array and find sum in each bank
+2. maxWealth = max(maxWealth,curr_wealth)
+3. return maxWealth
+
+
+</details>
