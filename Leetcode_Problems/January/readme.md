@@ -361,6 +361,20 @@
 
 </details>
 
+### [29.84_largest_rect_in_histogram](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/29.84_largest_rect_in_histogram.py)
+###### Leetcode Link: https://leetcode.com/problems/largest-rectangle-in-histogram/
+<details><summary> Approach </summary>
+
+#### Time Complexity: O(n)
+#### Space Complexity: O(n)
+#### Algorithm
+1. The idea is to use a monotonic stack. We iterate over bars and add them to the stack as long as the last element in the stack is less than the current bar. 
+2. When the condition doesn't hold, we start to calculate areas by popping out bars from the stack until the last element of the stack is greater than the current. 
+3. The area is calculated as the number of pops multiplied by the height of the popped bar. On every pop, the height of the bar will be less or equal to the previous (since elements in the stack are always monotonically increasing).
+
+
+</details>
+
 ### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/31.1672_richest_customer_wealth.py)
 ###### Leetcode Link: https://leetcode.com/problems/richest-customer-wealth/
 <details><summary> Approach </summary>
