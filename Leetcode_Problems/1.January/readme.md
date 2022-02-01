@@ -1,20 +1,20 @@
 # January Problems
 
-### [4.1009 Complement of base 10 integer](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/4.1009_complement_of_base_10_int.py)
+### [4.1009 Complement of base 10 integer](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/4.1009_complement_of_base_10_int.py)
 ###### Leetcode Link: https://leetcode.com/problems/complement-of-base-10-integer/
 <details><summary> Approach </summary>
 
  1. Create a mask and substract the given number.
 </details>
 
-### [5.131 Palindrome Partitioning](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/5.131_palindrome_partitioning.py)
+### [5.131 Palindrome Partitioning](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/5.131_palindrome_partitioning.py)
 ###### Leetcode Link: https://leetcode.com/problems/palindrome-partitioning/
 <details><summary> Approach </summary>
 
  1. Use dfs to find all the substrings of the given string.
 </details>
 
-### [6.1094 Car Pooling](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/6.1094_car_pooling.py)
+### [6.1094 Car Pooling](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/6.1094_car_pooling.py)
 ###### Leetcode Link: https://leetcode.com/problems/car-pooling/
 <details><summary> Approach </summary>
 
@@ -28,7 +28,7 @@
  5. Return false if capacity < passenger present in the capacity_array.
 </details>
 
-### [7.382. Linked List Random Node](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/7.382_linked_list_random_node.py)
+### [7.382. Linked List Random Node](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/7.382_linked_list_random_node.py)
 ###### Leetcode Link: https://leetcode.com/problems/linked-list-random-node/
 <details><summary> Approach </summary>
 
@@ -42,7 +42,7 @@
 
 </details>
 
-### [8.1463. Cherry Pickup II](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/8.1463_cherry_pick_up_2.py)
+### [8.1463. Cherry Pickup II](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/8.1463_cherry_pick_up_2.py)
 ###### Leetcode Link: https://leetcode.com/problems/cherry-pickup-ii/
 <details><summary> Approach </summary>
 
@@ -60,7 +60,7 @@
  5. Finally, return dp(row=0, col1=0, col2=last_column) in the main function
 </details>
 
-### [9.1049_robot_bounded_in_circle](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/9.1049_robot_bounded_in_circle.py)
+### [9.1049_robot_bounded_in_circle](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/9.1049_robot_bounded_in_circle.py)
 ###### Leetcode Link: https://leetcode.com/problems/robot-bounded-in-circle/submissions/
 <details><summary> Approach </summary>
 
@@ -76,7 +76,7 @@
  7. Check if x,y==0,0 or di!=(0,1) #no circle found if di is (0,1)
 </details>
 
-### [10.67_add_binary](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/10.67_add_binary.py)
+### [10.67_add_binary](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/10.67_add_binary.py)
 ###### Leetcode Link: https://leetcode.com/problems/add-binary/
 <details><summary> Approach </summary>
 
@@ -88,7 +88,7 @@
  3. Use negative index i here to iterate from the end (list[-1] gives the last element of the list). That allows us to have just one single index for both strings.
 </details>
 
-### [11.1022_sum_of_root_to_leaf_binary_num](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/11.1022_sum_of_root_to_leaf_binary_num.py)
+### [11.1022_sum_of_root_to_leaf_binary_num](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/11.1022_sum_of_root_to_leaf_binary_num.py)
 ###### Leetcode Link: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 <details><summary> Approach </summary>
 
@@ -100,7 +100,7 @@
  3. else return sum
 </details>
 
-### [12.701_insert_into_bst](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/12.701_insert_into_bst.py)
+### [12.701_insert_into_bst](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/12.701_insert_into_bst.py)
 ###### Leetcode Link: https://leetcode.com/problems/insert-into-a-binary-search-tree/
 <details><summary> Approach </summary>
 
@@ -114,7 +114,7 @@
 4. return root
 </details>
 
-### [13.452_min_num_of_arrows_to_burst_balloons](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/13.452_min_num_of_arrows_to_burst_balloons.py)
+### [13.452_min_num_of_arrows_to_burst_balloons](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/13.452_min_num_of_arrows_to_burst_balloons.py)
 ###### Leetcode Link: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
 <details><summary> Approach </summary>
 
@@ -124,18 +124,18 @@
  2. check for overlapping interval and increment the arrows and update ending point of the interval.
 </details>
 
-### [14.8_string_to_int_atoi](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/14.8_string_to_int_atoi.py)
+### [14.8_string_to_int_atoi](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/14.8_string_to_int_atoi.py)
 ###### Leetcode Link: https://leetcode.com/problems/string-to-integer-atoi/
 <details><summary> Approach </summary>
 
 #### Time Complexity: O(s)
 
-![DFA: Deterministic finite automaton](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/atoi.PNG?raw=true)
+![DFA: Deterministic finite automaton](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/atoi.PNG?raw=true)
 
 </details>
 
-### [15.1345_jump_game_4](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/15.1345_jump_game_4.py)
-###### Leetcode Link: https://leetcode.com/problems/jump-game-iv/
+### [15.1345_jump_game_4](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/15.1345_jump_game_4.py)
+###### Leetcode Link: https://leetcode.com/problems/1.Jump-game-iv/
 <details><summary> Approach </summary>
 
 #### Time complexity: O(N) since we will visit every node at most once.
@@ -147,7 +147,7 @@
 
 </details>
 
-### [16.849_max_distance_to_closest_person](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/16.849_max_distance_to_closest_person.py)
+### [16.849_max_distance_to_closest_person](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/16.849_max_distance_to_closest_person.py)
 ###### Leetcode Link: https://leetcode.com/problems/maximize-distance-to-closest-person/
 <details><summary> Approach </summary>
 
@@ -162,7 +162,7 @@
 
 </details>
 
-### [17.290_word_pattern](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/17.290_word_pattern.py)
+### [17.290_word_pattern](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/17.290_word_pattern.py)
 ###### Leetcode Link: https://leetcode.com/problems/word-pattern/
 <details><summary> Approach </summary>
 
@@ -176,7 +176,7 @@
 
 </details>
 
-### [18.605_can_place_flower](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/18.605_can_place_flower.py)
+### [18.605_can_place_flower](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/18.605_can_place_flower.py)
 ###### Leetcode Link: https://leetcode.com/problems/can-place-flowers/
 <details><summary> Approach </summary>
 
@@ -190,7 +190,7 @@
 
 </details>
 
-### [19.142_linked_list_cycle_2](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/19.142_linked_list_cycle_2.py)
+### [19.142_linked_list_cycle_2](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/19.142_linked_list_cycle_2.py)
 ###### Leetcode Link: https://leetcode.com/problems/linked-list-cycle-ii/
 <details><summary> Approach </summary>
 
@@ -208,7 +208,7 @@
 
 </details>
 
-### [20.875_koko_eating_bananas](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/20.875_koko_eating_bananas.py)
+### [20.875_koko_eating_bananas](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/20.875_koko_eating_bananas.py)
 ###### Leetcode Link: https://leetcode.com/problems/koko-eating-bananas/
 <details><summary> Approach </summary>
 
@@ -231,7 +231,7 @@
 
 </details>
 
-### [21.134_gas_station](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/21.134_gas_station.py)
+### [21.134_gas_station](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/21.134_gas_station.py)
 ###### Leetcode Link: https://leetcode.com/problems/gas-station/
 <details><summary> Approach </summary>
 
@@ -250,7 +250,7 @@
 
 </details>
 
-### [22.1510_stone_game_4](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/22.1510.stone_game_4.py)
+### [22.1510_stone_game_4](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/22.1510.stone_game_4.py)
 ###### Leetcode Link: https://leetcode.com/problems/stone-game-iv/
 <details><summary> Approach </summary>
 
@@ -267,7 +267,7 @@
 
 </details>
 
-### [23.1291_sequential_digits](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/23.1291_sequential_digits.py)
+### [23.1291_sequential_digits](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/23.1291_sequential_digits.py)
 ###### Leetcode Link: https://leetcode.com/problems/sequential-digits/
 <details><summary> Approach </summary>
 
@@ -284,7 +284,7 @@
 
 </details>
 
-### [24.520_detect_capital](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/24.520_detect_capital.py)
+### [24.520_detect_capital](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/24.520_detect_capital.py)
 ###### Leetcode Link: https://leetcode.com/problems/detect-capital/
 <details><summary> Approach </summary>
 
@@ -300,7 +300,7 @@
 
 </details>
 
-### [25.941_valid_mountain_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/25.941_valid_mountain_array.py)
+### [25.941_valid_mountain_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/25.941_valid_mountain_array.py)
 ###### Leetcode Link: https://leetcode.com/problems/valid-mountain-array/
 <details><summary> Approach </summary>
 
@@ -315,7 +315,7 @@
 
 </details>
 
-### [26.1305_all_ele_in_bin_searrch_tree](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/26.1305_all_ele_in_bin_searrch_tree.py)
+### [26.1305_all_ele_in_bin_searrch_tree](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/26.1305_all_ele_in_bin_searrch_tree.py)
 ###### Leetcode Link: https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 <details><summary> Approach </summary>
 
@@ -333,7 +333,7 @@
 
 </details>
 
-### [27.421_max_num_of_xor_in_arr](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/27.421_max_num_of_xor_in_arr.py)
+### [27.421_max_num_of_xor_in_arr](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/27.421_max_num_of_xor_in_arr.py)
 ###### Leetcode Link: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
 <details><summary> Approach </summary>
 
@@ -348,7 +348,7 @@
 
 </details>
 
-### [28.211_design_add_and_search_ds](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/28.211_design_add_and_search_ds.py)
+### [28.211_design_add_and_search_ds](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/28.211_design_add_and_search_ds.py)
 ###### Leetcode Link: https://leetcode.com/problems/design-add-and-search-words-data-structure/
 <details><summary> Approach </summary>
 
@@ -361,7 +361,7 @@
 
 </details>
 
-### [29.84_largest_rect_in_histogram](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/29.84_largest_rect_in_histogram.py)
+### [29.84_largest_rect_in_histogram](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/29.84_largest_rect_in_histogram.py)
 ###### Leetcode Link: https://leetcode.com/problems/largest-rectangle-in-histogram/
 <details><summary> Approach </summary>
 
@@ -375,7 +375,7 @@
 
 </details>
 
-### [30.189_rotate_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/30.189_rotate_array.py)
+### [30.189_rotate_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/30.189_rotate_array.py)
 ###### Leetcode Link: https://leetcode.com/problems/rotate-array/
 <details><summary> Approach </summary>
 
@@ -389,7 +389,7 @@
 
 </details>
 
-### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/January/31.1672_richest_customer_wealth.py)
+### [31.1672_richest_customer_wealth](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/1.January/31.1672_richest_customer_wealth.py)
 ###### Leetcode Link: https://leetcode.com/problems/richest-customer-wealth/
 <details><summary> Approach </summary>
 

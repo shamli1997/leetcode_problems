@@ -1,6 +1,6 @@
 # February Problems
 
-### [1.121_best_time_to_buy_sell_stock](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/February/1.121_best_time_to_buy_sell_stock.py)
+### [1.121_best_time_to_buy_sell_stock](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/1.121_best_time_to_buy_sell_stock.py)
 ###### Leetcode Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 <details><summary>Brute Force</summary>
 
