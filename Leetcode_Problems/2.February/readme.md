@@ -25,3 +25,20 @@
  5. return max_profit
 
 </details>
+
+### [2.438_find_all_anagrams_in_str](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/2.438_find_all_anagrams_in_str.py)
+###### Leetcode Link: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N)
+##### SC: O(1)
+ 1. Initialize pattern dictionary dict_p hashmap using collenctions.counter(p), dict_s = {}, start = 0
+ 2. iterate from 1 to len(s)
+ 3. if s[end] in the dict_s add 1 as value else increment by 1
+ 4. check if dict_s == dict_p: result.append(start)
+ 5. if (end - start + 1) >= len(p):if dic_s[s[start]] > 1:decrement the val else delete dic_s[s[start]
+ 6. increment start by 1
+ 7. return result
+
+</details>
