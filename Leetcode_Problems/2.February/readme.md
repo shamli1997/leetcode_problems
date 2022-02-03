@@ -42,3 +42,23 @@
  7. return result
 
 </details>
+
+### [3.454_4_sum_2](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/3.454_4_sum_2.py)
+###### Leetcode Link: https://leetcode.com/problems/4sum-ii/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N*N)
+##### SC: O(N*N)
+ 1. Initialize 2 dicts d1 d2
+ 2. iterate over nums1, nums2.
+    1. insert num1+num2 frequency in d1
+ 3. Iterate over nums3, nums4
+    1. insert num3+num4 frequency in d1
+ 4. Iterate over d1.keys()
+    1. if -key in d2.keys:
+        1. ans += d1[key] * d2[-key]
+ 5. return ans
+
+
+</details>
