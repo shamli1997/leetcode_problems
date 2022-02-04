@@ -72,10 +72,10 @@
 ##### SC: O(N)
  1. Initialize total, maxlength = 0, 0 and prefix_sum={-1:0}
  2. iterate over ienumerate(nums)
-   1. if num == 0: total--
-   2. if num == 1: total++
-   3. if total not in prefix_sum.keys(): prefix_sum[total] = index
-   4. else: maxlength = max(maxlength,index - prefi_sum)
+      1. if num == 0: total--
+      2. if num == 1: total++
+      3. if total not in prefix_sum.keys(): prefix_sum[total] = index
+      4. else: maxlength = max(maxlength,index - prefi_sum)
 3. return maxlength
 
 
