@@ -62,3 +62,22 @@
 
 
 </details>
+
+### [4.525_contiguous_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/4.525_contiguous_array.py)
+###### Leetcode Link: https://leetcode.com/problems/contiguous-array/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N)
+##### SC: O(N)
+ 1. Initialize total, maxlength = 0, 0 and prefix_sum={-1:0}
+ 2. iterate over ienumerate(nums)
+   1. if num == 0: total--
+   2. if num == 1: total++
+   3. if total not in prefix_sum.keys(): prefix_sum[total] = index
+   4. else: maxlength = max(maxlength,index - prefi_sum)
+3. return maxlength
+
+
+
+</details>
