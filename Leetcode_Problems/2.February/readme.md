@@ -81,3 +81,22 @@
 
 
 </details>
+
+### [5.23_merge_k_sorted_linked_list](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/5.23_merge_k_sorted_linked_list.py)
+###### Leetcode Link: https://leetcode.com/problems/merge-k-sorted-lists/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N log k) where k is the number of linked lists
+##### SC: O(1)
+1. Pair up k lists and merge each pair.
+
+2. After the first pairing, k lists are merged into k/2 lists with average 2N/k length, then k/4, k/8 and so on.
+
+3. Repeat this procedure until we get the final sorted linked list.
+
+Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this procedure about log{k} times.
+
+ 
+
+</details>
