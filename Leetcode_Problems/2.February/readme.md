@@ -100,3 +100,22 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
  
 
 </details>
+
+### [6.80_remove_duplicates_from_array](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/6.80_remove_duplicates_from_array.py)
+###### Leetcode Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N) 
+##### SC: O(1)
+1. if len of nums < 3 return len(NUMS)
+2. iterate over nums from 1 to len(nums) - 1
+   1. if nums[i-1]!=nums[i+1]
+      1. nums[count] = nums[i]
+      2. count += 1
+3. nums[count] = nums[-1]
+4. return count + 1
+
+ 
+
+</details>
