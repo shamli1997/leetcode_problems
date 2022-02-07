@@ -119,3 +119,19 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
  
 
 </details>
+
+### [7.389_find_the_difference](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/7.389_find_the_difference.py)
+###### Leetcode Link: https://leetcode.com/problems/find-the-difference/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N) 
+##### SC: O(1)
+1. initialize c = 0
+2. iterate over s and xor ord(s) with c
+3. iterate over t and xor ord(t) with c
+4. return c
+
+ 
+
+</details>
