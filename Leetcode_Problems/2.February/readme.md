@@ -135,3 +135,22 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
  
 
 </details>
+
+
+### [8.258_add_digits](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/8.258_add_digits.py)
+###### Leetcode Link: https://leetcode.com/problems/add-digits/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N) 
+##### SC: O(1)
+1. initialize res = num
+2. iterate while len(str(res))>1
+   1. div_num = res // 10
+   2. rem = res % 10
+   3. res = div_num + rem
+3. return res
+
+ 
+
+</details>
