@@ -150,7 +150,19 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
    2. rem = res % 10
    3. res = div_num + rem
 3. return res
+</details>
 
- 
+### [10.560_subarray_sum_equals_k](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/10.560_subarray_sum_equals_k.py)
+###### Leetcode Link: https://leetcode.com/problems/subarray-sum-equals-k/
 
+<details><summary>Approach</summary>
+
+##### TC: O(N) 
+##### SC: O(N)
+1. initialize sum, count, d[0] = 0, 0 ,0
+2. iterate over arr
+   1. sum += arr[i]
+   2. count += d.get(sum - k,0)
+   3. d[sum] = d.get(sum,0) + 1
+3. return count
 </details>
