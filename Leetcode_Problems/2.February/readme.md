@@ -152,7 +152,7 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
 3. return res
 </details>
 
-### [10.560_subarray_sum_equals_k](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/10.560_subarray_sum_equals_k.py)
+### [10.560_subarray_sum_equals_k](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/10.560_subarry_sum_equals_k.py)
 ###### Leetcode Link: https://leetcode.com/problems/subarray-sum-equals-k/
 
 <details><summary>Approach</summary>
