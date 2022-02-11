@@ -166,3 +166,14 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
    3. d[sum] = d.get(sum,0) + 1
 3. return count
 </details>
+
+### [11.567_permutation_in_str](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/11.567_permutation_in_str.py)
+###### Leetcode Link: https://leetcode.com/problems/permutation-in-string/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N) 
+##### SC: O(N)
+1. Create a window of size s1.
+2. Check s2 if occurances of characters is same between s1 and s2 by sliding window from 0 to len(s2) - window_size.
+</details>
