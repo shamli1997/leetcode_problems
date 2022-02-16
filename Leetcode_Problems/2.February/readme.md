@@ -177,3 +177,15 @@ Thus, we'll traverse almost NN nodes per pairing and merging, and repeat this pr
 1. Create a window of size s1.
 2. Check s2 if occurances of characters is same between s1 and s2 by sliding window from 0 to len(s2) - window_size.
 </details>
+
+### [16.24_swap_nodes_in_pair](https://github.com/shamli1997/leetcode_problems/blob/main/Leetcode_Problems/2.February/16.24_swap_nodes_in_pair.py)
+###### Leetcode Link: https://leetcode.com/problems/swap-nodes-in-pairs/
+
+<details><summary>Approach</summary>
+
+##### TC: O(N) 
+##### SC: O(1)
+1. Here, pre is the previous node. Since the head doesn't have a previous node, used self instead. Again, a is the current node and b is the next node.
+
+2. To go from pre -> a -> b -> b.next to pre -> b -> a -> b.next, we need to change those three references. Instead of thinking about in what order to change them, just change all three at once.
+</details>
